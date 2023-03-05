@@ -132,7 +132,7 @@
   max-width: 438px;
 }
 
-.recipies__video-container {
+.recipes__videos {
   margin-top: 80px;
   display: flex;
   justify-content: center;
@@ -149,7 +149,7 @@
   display: flex;
 }
 
-.recipes__videos {
+.recipes__videos-inner {
   display: flex;
   flex-direction: column;
   gap: 24px;
