@@ -106,63 +106,61 @@
           </div>
         </section>
         <section class="reservation" id="reservation-section">
-          <h1 class="reservation__title">Book a table</h1>
-          <div class="form">
-            <div class="form reservation__form">
-              <fieldset class="form">
-                <label for="name" class="form__label">Name*</label>
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form">
+              <label for="name" class="form__label">Name*</label>
+              <input
+                class="form__input"
+                id="name"
+                type="text"
+                required
+                placeholder="Name Surname"
+              />
+              <label for="numberofguests" class="form__label"
+                >Number of guests*</label
+              >
+              <input
+                class="form__input"
+                id="numberofguests"
+                type="number"
+                min="1"
+                max="8"
+                required
+                placeholder="1-8"
+              />
+              <label for="reservation-time" class="form__label"
+                >Date & time*</label
+              >
+              <input
+                class="form__input"
+                id="reservation-time"
+                type="datetime-local"
+                required
+              />
+              <label for="email" class="form__label">Your email*</label>
+              <input
+                class="form__input"
+                id="email"
+                type="email"
+                required
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <fieldset class="form">
+              <button class="form__button" type="submit">Book a table</button>
+            </fieldset>
+            <fieldset class="form">
+              <label class="form__label" for="formcheckbox">
                 <input
-                  class="form__input"
-                  id="name"
-                  type="text"
-                  required
-                  placeholder="Name Surname"
+                  class="form__checkbox"
+                  type="checkbox"
+                  id="formcheckbox"
                 />
-                <label for="numberofguests" class="form__label"
-                  >Number of guests*</label
-                >
-                <input
-                  class="form__input"
-                  id="numberofguests"
-                  type="number"
-                  min="1"
-                  max="8"
-                  required
-                  placeholder="1-8"
-                />
-                <label for="reservation-time" class="form__label"
-                  >Date & time*</label
-                >
-                <input
-                  class="form__input"
-                  id="reservation-time"
-                  type="datetime-local"
-                  required
-                />
-                <label for="email" class="form__label">Your email*</label>
-                <input
-                  class="form__input"
-                  id="email"
-                  type="email"
-                  required
-                  placeholder="email@email.com"
-                />
-              </fieldset>
-              <fieldset class="form">
-                <button class="form__button" type="submit">Book a table</button>
-              </fieldset>
-              <fieldset class="form">
-                <label class="form__label" for="formcheckbox">
-                  <input
-                    class="form__checkbox"
-                    type="checkbox"
-                    id="formcheckbox"
-                  />
-                  I agree with the terms of use
-                </label>
-              </fieldset>
-            </div>
-          </div>
+                I agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
         </section>
         <section class="menu" id="menu-section"></section>
         <section class="about" id="about-section"></section>
