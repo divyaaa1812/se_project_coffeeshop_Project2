@@ -13,12 +13,20 @@
   padding-top: 100px;
   max-width: 780px;
   margin: 0;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
   padding-top: 24px;
   margin: 0px;
   max-width: 780px;
+  font-family: "Noto Serif", "Times New Roman";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .menu__cards {
@@ -37,8 +45,22 @@
 .card__title {
   margin-bottom: 32px;
   margin-top: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list-item {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-family: "Noto Serif";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card__list-divider {
+  border-bottom: 1px solid;
+  flex: 1;
 }

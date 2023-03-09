@@ -40,7 +40,7 @@
   padding-right: 0;
   display: flex;
   margin-bottom: 32px;
-  width: 385px;
+  width: 361px;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
@@ -73,6 +73,11 @@
   opacity: 70%;
 }
 
+.form__label_content_align {
+  display: flex;
+  justify-content: center;
+}
+
 .form__checkbox {
   border-radius: 2px;
   background-color: #2f80ed;
@@ -81,8 +86,4 @@
   height: 12px;
   margin-right: 12px;
   margin-bottom: 120px;
-}
-
-.form__label_content_align {
-  text-align: center;
 }
