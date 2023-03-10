@@ -13,4 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Add up arrow on the screen which helps users to click on it to navigate to menu section
+- Store reservation data submitted by end users.
+- Popup message with reservation status for users should be displayed as soon as they click on "Book a Table" button
