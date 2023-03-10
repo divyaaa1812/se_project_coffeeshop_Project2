@@ -31,6 +31,10 @@
   font-weight: 500;
 }
 
+.nav__links:hover {
+  color: #2f80ed;
+}
+
 .header__image {
   width: 646px;
   height: 568px;
