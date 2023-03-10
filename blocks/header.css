@@ -28,6 +28,8 @@
   font-weight: normal;
   font-style: normal;
   font-family: "Inter", Arial, sans-serif;
+  position: relative;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -46,6 +48,8 @@
   line-height: 30px;
   font-family: "Noto Serif", serif, "Times New Roman";
   font-weight: normal;
+  position: relative;
+  z-index: 1;
 }
 
 .header__footer {
@@ -55,6 +59,7 @@
   justify-content: space-between;
   color: #838383;
   width: 100%;
+  align-items: flex-end;
 }
 
 .header__timings {
