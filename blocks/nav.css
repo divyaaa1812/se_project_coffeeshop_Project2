@@ -20,5 +20,6 @@
 }
 
 .nav__link:hover {
-  color: #2f80ed;
+  transition-property: color 1s ease-in;
+  color: #c1c1c1;
 }
