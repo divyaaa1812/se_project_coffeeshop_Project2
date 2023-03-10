@@ -47,6 +47,10 @@
   margin-bottom: 20px;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
 .about__circle {
   position: absolute;
   top: -152px;
@@ -59,13 +63,5 @@
 }
 
 .about__circle_animation_blurred {
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  width: 426px;
-  height: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  z-index: -1;
   animation: pulsate 1.3s ease-in-out infinite;
 }

@@ -6,6 +6,8 @@
   background-size: cover;
   height: 100vh;
   position: relative;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .header__image {
