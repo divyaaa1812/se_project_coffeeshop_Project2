@@ -45,6 +45,7 @@
 
 .recipes__video-caption-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .recipes__videos-inner {
@@ -53,11 +54,6 @@
   gap: 24px;
 }
 
-.recipes__video-caption {
-  flex: 1;
-}
-
-.recipes__video-minutes,
 .recipes__video-caption {
   margin: 0;
   font-style: normal;

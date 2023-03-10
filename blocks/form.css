@@ -5,6 +5,12 @@
   border: 0;
 }
 
+.form__fieldset {
+  padding: 0;
+  border-width: 0px;
+  margin: 0;
+}
+
 .form__input {
   border-radius: 4px #838383;
   height: 60px;
