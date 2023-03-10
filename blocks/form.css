@@ -53,7 +53,7 @@
   opacity: 70%;
 }
 
-.form_content_align {
+.form__fieldset_align_center {
   display: flex;
   justify-content: center;
 }
