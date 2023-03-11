@@ -47,7 +47,10 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transition-property: color 1s ease-in;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
 }
 
 .footer__social-icon {
